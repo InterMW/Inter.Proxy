@@ -14,7 +14,6 @@ jobs:
      - uses: actions/checkout@v2
      - name: files-ls
   # You may pin to the exact commit or the version.
-  # uses: sigyl-actions/files-ls@750629debc5b5eb3f651b1d44862cbdd19fb1d70
        uses: sigyl-actions/files-ls@v0.0.1
        with:
         folder: "/"      
